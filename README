@@ -1,27 +1,27 @@
 ## How to use
 
 ### Include Google Api lib & curl client
-```
+
+
 include 'XaFra/Network/GoogleApi/Images/class.Client.php';
 include 'XaFra/Network/Curl/class.Client.php';
 include 'XaFra/Network/Curl/class.Response.php';
 include 'XaFra/Network/Curl/Exceptions.php';
-```
+
 
 ### Configure
-```
+
 $i = new GoogleImages();
 $images = $i->setQuery('dogs')->setSize(GoogleImages::HugeImages)->setSafe(GoogleImages::SafeActive)->run();
-```
+
 ### Show
-```
+
 foreach($images as $image)
 {
     echo "<img src='{$image->url}' alt=''>"
 }
-```
 
-***
+
 
 ## Detail configuration
 
@@ -45,4 +45,4 @@ foreach($images as $image)
 
 ***
 
-See [Google Images Api doc](https://developers.google.com/image-search/v1/jsondevguide)
+See https://developers.google.com/image-search/v1/jsondevguide
