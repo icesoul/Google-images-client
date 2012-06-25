@@ -3,10 +3,10 @@
 ### Include Google Api lib & curl client
 
 
-include 'XaFra/Network/GoogleApi/Images/class.Client.php';
-include 'XaFra/Network/Curl/class.Client.php';
-include 'XaFra/Network/Curl/class.Response.php';
-include 'XaFra/Network/Curl/Exceptions.php';
+include 'GoogleApi/Images/class.Client.php';
+include 'Curl/class.Client.php';
+include 'Curl/class.Response.php';
+include 'Curl/Exceptions.php';
 
 
 ### Configure
